@@ -184,7 +184,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         //bird
 //        g.drawImage(bird.img, bird.x, bird.y, bird.width, bird.height, null);
         /// Rotation of the bird
-        //bird rotation
+        //bird's rotation
         // 1. Calcul de l'angle de base (on multiplie par 0.04 pour adoucir la rotation)
         double angle = velocityY * 0.04;
         // 2. On bride l'angle pour que l'oiseau ne tourne pas à l'infini
