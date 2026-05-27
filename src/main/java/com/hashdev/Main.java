@@ -10,6 +10,7 @@ public class Main {
         JFrame frame = new JFrame("Flappy Bird");
         frame.setSize(boardWidth,boardHeight);
         frame.setLocationRelativeTo(null);
+        frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ImageIcon icon = new ImageIcon("src/main/resources/img/flappybird.png");
         frame.setIconImage(icon.getImage());
